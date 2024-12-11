@@ -1,0 +1,24 @@
+const x = 2 , y = 3 , z = 6 ;
+var a , b , c , d ;
+begin
+    a := x + y + z ;
+    b := x * y * z;
+    c := x + 4 + 4955;
+
+    if a = 5 then
+        begin
+            write 3;
+            if b = 35 then
+                write 458
+            fi;
+        end
+    fi;
+    while a <= 30
+        do
+        c := (c + 45);
+        a := a + 1;
+    read d;
+    if odd d then
+    d := ((a * b) * (c + 356))/45
+    fi;
+end.
